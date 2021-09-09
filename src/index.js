@@ -27,10 +27,10 @@ form.addEventListener("submit", function(e) {
     // put it on the DOM 
     // where do i want to put it? put it on tasks
     //so grab tasks
-    const todoItem = document.createElement("li")
+    const todoItem = document.createElement("li");
     todoItem.innerText = newTask;
 
     myTodos.appendChild(todoItem);
     form.reset();
-  })
-})
+  });
+});
